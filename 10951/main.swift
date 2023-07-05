@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  10951.swift
 //  Algorithms
 //
 //  Created by Haeju Lee on 2023/07/05.
