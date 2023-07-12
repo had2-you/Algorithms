@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2208F8E2A551417000ED305 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2208F8A2A550C97000ED305 /* main.swift */; };
+		D2208F982A5EC310000ED305 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2208F952A5E8555000ED305 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		D2208F7F2A550953000ED305 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2208F8A2A550C97000ED305 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2208F8F2A55143A000ED305 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D2208F952A5E8555000ED305 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		D2208F762A550953000ED305 = {
 			isa = PBXGroup;
 			children = (
+				D2208F912A5E81E5000ED305 /* 10818 */,
 				D2208F8C2A5513DC000ED305 /* 10951 */,
 				D2208F892A550C89000ED305 /* 1546 */,
 				D2208F802A550953000ED305 /* Products */,
@@ -70,6 +72,14 @@
 				D2208F8F2A55143A000ED305 /* main.swift */,
 			);
 			path = 10951;
+			sourceTree = "<group>";
+		};
+		D2208F912A5E81E5000ED305 /* 10818 */ = {
+			isa = PBXGroup;
+			children = (
+				D2208F952A5E8555000ED305 /* main.swift */,
+			);
+			path = 10818;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +114,7 @@
 				TargetAttributes = {
 					D2208F7E2A550953000ED305 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -130,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2208F8E2A551417000ED305 /* main.swift in Sources */,
+				D2208F982A5EC310000ED305 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +264,10 @@
 		D2208F872A550953000ED305 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -262,6 +275,7 @@
 		D2208F882A550953000ED305 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
